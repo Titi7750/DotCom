@@ -192,14 +192,10 @@
     margin-bottom: 3em;
 }
 
-.etoile1, .etoile2, .etoile3 {
-    color: yellow;
+.etoile1, .etoile2, .etoile3, .etoile4, .etoile5 {
     font-size: 40px;
-}
-
-.etoile4, .etoile5 {
+    cursor: pointer;
     color: #707070;
-    font-size: 40px;
 }
 
 .linkAll_restaurant {

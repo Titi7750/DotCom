@@ -35,7 +35,7 @@
 			</div>
 			<div class="background_clock">
 				<i class="fas fa-clock clock"></i>
-				<h4>Horaires</h4>
+				<a class="localisation" href="https://www.google.com/search?client=opera&q=mcdonald%27s+lyon+part+dieu&sourceid=opera&ie=UTF-8&oe=UTF-8&tpsf=openc" target="_blank"><h4>Horaires</h4></a>
 				<p>Ouvert toute le semaine</p>
 			</div>
 		</div>
@@ -67,4 +67,52 @@
 
 	<link rel="stylesheet" href="{{ asset('css/page_restaurant.css') }}">
 	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+	<script>
+		const etoile1 = document.querySelector('.etoile1');
+		const etoile2 = document.querySelector('.etoile2');
+		const etoile3 = document.querySelector('.etoile3');
+		const etoile4 = document.querySelector('.etoile4');
+		const etoile5 = document.querySelector('.etoile5');
+
+		etoile1.addEventListener('click', () => {
+			etoile1.style.color = '#FFD700';
+			etoile2.style.color = '#707070';
+			etoile3.style.color = '#707070';
+			etoile4.style.color = '#707070';
+			etoile5.style.color = '#707070';
+		});
+
+		etoile2.addEventListener('click', () => {
+			etoile1.style.color = '#FFD700';
+			etoile2.style.color = '#FFD700';
+			etoile3.style.color = '#707070';
+			etoile4.style.color = '#707070';
+			etoile5.style.color = '#707070';
+		});
+
+		etoile3.addEventListener('click', () => {
+			etoile1.style.color = '#FFD700';
+			etoile2.style.color = '#FFD700';
+			etoile3.style.color = '#FFD700';
+			etoile4.style.color = '#707070';
+			etoile5.style.color = '#707070';
+		});
+
+		etoile4.addEventListener('click', () => {
+			etoile1.style.color = '#FFD700';
+			etoile2.style.color = '#FFD700';
+			etoile3.style.color = '#FFD700';
+			etoile4.style.color = '#FFD700';
+			etoile5.style.color = '#707070';
+		});
+
+		etoile5.addEventListener('click', () => {
+			etoile1.style.color = '#FFD700';
+			etoile2.style.color = '#FFD700';
+			etoile3.style.color = '#FFD700';
+			etoile4.style.color = '#FFD700';
+			etoile5.style.color = '#FFD700';
+		});
+	</script>
 {% endblock %}
