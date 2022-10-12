@@ -1,0 +1,596 @@
+/* * {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo_takeBreak {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    display: block;
+}
+
+.linkAll_restaurant {
+    text-decoration: none;
+    background-color: #26B7C5;
+    color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.linkAll_restaurant:hover {
+    text-decoration: underline;
+}
+
+.background_school {
+    background-image: url("../img/background_school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.description {
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.selection_student {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.linkForm_restaurant {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.background_mc {
+    background-image: url("../img/macdonald.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.background_mc:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bk {
+    background-image: url("../img/burger_king.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bk:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_car {
+    background-image: url("../img/carrefour.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_car:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bd {
+    background-image: url("../img/brioche_doree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bd:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_chi {
+    background-image: url("../img/chipotle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_chi:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_sushi {
+    background-image: url("../img/sushishop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.background_sushi:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_otacos {
+    background-image: url("../img/otacos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_otacos:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 1px solid #707070;
+    padding: 20px;
+    text-align: center;
+    color: #707070;
+    font-size: 20px;
+} */
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo_takeBreak {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    display: block;
+}
+
+.linkAll_restaurant {
+    text-decoration: none;
+    background-color: #26B7C5;
+    color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.linkAll_restaurant:hover {
+    text-decoration: underline;
+}
+
+.background_school {
+    background-image: url("../img/background_school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.description {
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.selection_student {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.linkForm_restaurant {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.background_mc {
+    background-image: url("../img/macdonald.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.background_mc:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bk {
+    background-image: url("../img/burger_king.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bk:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_car {
+    background-image: url("../img/carrefour.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_car:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bd {
+    background-image: url("../img/brioche_doree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bd:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_chi {
+    background-image: url("../img/chipotle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_chi:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_sushi {
+    background-image: url("../img/sushishop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.background_sushi:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_otacos {
+    background-image: url("../img/otacos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_otacos:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 1px solid #707070;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #3C3C3B;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .logo_takeBreak {
+        width: 60%;
+        height: 60%;
+    }
+
+    .background_school {
+        height: 300px;
+    }
+
+    .description {
+        padding-top: 100px;
+    }
+
+    .linkAll_restaurant {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .description {
+        padding-top: 100px;
+    }
+
+    .linkAll_restaurant {
+        padding: 20px;
+    }
+
+    .background_mc {
+        height: 300px;
+        width: 250px;
+    }
+
+    .background_bk {
+        height: 300px;
+        width: 250px;
+    }
+
+    .background_car {
+        height: 300px;
+        width: 250px;
+    }
+
+    .background_bd {
+        height: 300px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    
+    .description {
+        padding-top: 100px;
+    }
+
+    .linkAll_restaurant {
+        padding: 20px;
+    }
+    
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .linkForm_restaurant {
+        font-size: 30px;
+    }
+
+    .background_mc {
+        height: 250px;
+        width: 200px;
+    }
+
+    .background_bk {
+        height: 250px;
+        width: 200px;
+    }
+
+    .background_car {
+        height: 250px;
+        width: 200px;
+    }
+
+    .background_bd {
+        height: 250px;
+        width: 200px;
+    }
+
+    .background_chi {
+        height: 300px;
+        width: 250px;
+    }
+
+    .background_sushi {
+        height: 300px;
+        width: 250px;
+    }
+    .background_otacos {
+        height: 300px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .logo_takeBreak {
+        width: 75%;
+        height: 75%;
+    }
+
+    .background_school {
+        height: 200px;
+    }
+
+    .description {
+        font-size: 25px;
+        padding-top: 65px;
+    }
+
+    .selection {
+        display: block;
+        margin-left: 28%;
+    }
+
+    .background_mc {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_bk {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_car {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_bd {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .selection_student {
+        display: block;
+        margin-left: 28%;
+    }
+
+    .background_chi {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_sushi {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .background_otacos {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+}

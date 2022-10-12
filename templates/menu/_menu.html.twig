@@ -1,0 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<nav class="navbar">
+	{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+		<li>
+			<a href="{{ path('app_my_account') }}" class="nav-links">Mon compte</a>
+		</li>
+	{% else %}
+		<li>
+			<a href="{{ path('app_login') }}" class="nav-links_connexion">Connexion</a>
+		</li>
+	{% endif %}
+</nav>
+
+<link rel="stylesheet" href="{{ asset('css/menu.css') }}">

@@ -1,0 +1,87 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Les restaurants
+{% endblock %}
+
+{% block body %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<header>
+		{% include 'menu/_menu.html.twig' %}
+		<div>
+			<a href="/accueil"><img class="logo_takeBreak" src="img/take_a_break.png" alt="Logo Take a Break"></a>
+		</div>
+		<a class="link" href="#restaurants">Nos restaurants pour vous</a>
+	</header>
+	<main>
+		<div class="background_school">
+			<h2 class="description">Retrouvez les restaurants à<br>proximités
+			</h2>
+		</div>
+		<div id="restaurants" class="subtitle">
+			<h3>Tous les restaurants</h3>
+		</div>
+		<section class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="/page_restaurant">Macdonald<br>Part-Dieu</a>
+			</div>
+			<div class="background_bk">
+				<a class="linkForm_restaurant" href="#">Burger King<br>Part-Dieu</a>
+			</div>
+			<div class="background_car">
+				<a class="linkForm_restaurant" href="#">Carrefour<br>Part-Dieu</a>
+			</div>
+			<div class="background_bd">
+				<a class="linkForm_restaurant" href="#">Brioche dorée</a>
+			</div>
+		</section>
+		<section class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="#">Macdonald<br>Part-Dieu</a>
+			</div>
+			<div class="background_bk">
+				<a class="linkForm_restaurant" href="#">Burger King<br>Part-Dieu</a>
+			</div>
+			<div class="background_car">
+				<a class="linkForm_restaurant" href="#">Carrefour<br>Part-Dieu</a>
+			</div>
+			<div class="background_bd">
+				<a class="linkForm_restaurant" href="#">Brioche dorée</a>
+			</div>
+		</section>
+		<section class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="#">Macdonald<br>Part-Dieu</a>
+			</div>
+			<div class="background_bk">
+				<a class="linkForm_restaurant" href="#">Burger King<br>Part-Dieu</a>
+			</div>
+			<div class="background_car">
+				<a class="linkForm_restaurant" href="#">Carrefour<br>Part-Dieu</a>
+			</div>
+			<div class="background_bd">
+				<a class="linkForm_restaurant" href="#">Brioche dorée</a>
+			</div>
+		</section>
+		<section class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="#">Macdonald<br>Part-Dieu</a>
+			</div>
+			<div class="background_bk">
+				<a class="linkForm_restaurant" href="#">Burger King<br>Part-Dieu</a>
+			</div>
+			<div class="background_car">
+				<a class="linkForm_restaurant" href="#">Carrefour<br>Part-Dieu</a>
+			</div>
+			<div class="background_bd">
+				<a class="linkForm_restaurant" href="#">Brioche dorée</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<h3>Propulsé par DotCom</h3>
+	</footer>
+
+
+	<link rel="stylesheet" href="{{ asset('css/restaurant.css') }}">
+	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+{% endblock %}

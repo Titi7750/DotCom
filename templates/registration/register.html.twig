@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription
+{% endblock %}
+
+{% block body %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<header>
+		<div class="background_school">
+			<div class="backAll">
+				<i class="fas fa-arrow-left back"></i>
+				<a class="back" href="{{ path('app_home') }}">Accueil</a>
+			</div>
+			<h2 class="description">Inscrivez-vous</h2>
+		</div>
+	</header>
+	{% for flash_error in app.flashes('verify_email_error') %}
+		<div class="alert alert-danger" role="alert">{{ flash_error }}</div>
+	{% endfor %}
+
+	{{ form_start(registrationForm) }}
+	{{ form_label(registrationForm.firstname) }}
+	{{ form_widget(registrationForm.firstname)}}
+	{{ form_label(registrationForm.lastname) }}
+	{{ form_widget(registrationForm.lastname)}}
+	{{ form_label(registrationForm.email) }}
+	{{ form_widget(registrationForm.email) }}
+	{{ form_label(registrationForm.plainPassword) }}
+	{{ form_widget(registrationForm.plainPassword) }}
+
+	<button type="submit" class="button">S'inscrire</button>
+	<p class="connexion">Vous avez déjà un compte ?
+		<a href="{{ path('app_login') }}">Connectez-vous</a>
+	</p>
+	{{ form_end(registrationForm) }}
+
+
+	<link rel="stylesheet" href="{{ asset('css/register.css') }}">
+	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+{% endblock %}

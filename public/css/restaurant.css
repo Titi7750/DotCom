@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    list-style-type: none;  
+}
+
+.nav-links {
+    color: #fff;
+    background-color: #26B7C5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    margin-left: 92em;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.logo_takeBreak {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #26B7C5;
+    color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.background_school {
+    background-image: url("../img/background_school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.description {
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.linkForm_restaurant {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.background_mc {
+    background-image: url("../img/macdonald.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.background_mc:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bk {
+    background-image: url("../img/burger_king.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bk:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_car {
+    background-image: url("../img/carrefour.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_car:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.background_bd {
+    background-image: url("../img/brioche_doree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_bd:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold
+}
+
+footer {
+    border-top: 1px solid #707070;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #3C3C3B;
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo_takeBreak {
+        width: 70%;
+        height: 70%;
+    }
+
+    .link {
+        margin-bottom: 70px;
+    }
+
+    .selection {
+        display: block;
+        margin-left: 28%;
+    }
+
+    .background_mc {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_bk {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_car {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+
+    .background_bd {
+        height: 400px;
+        width: 350px;
+        margin-bottom: 1em;
+    }
+}

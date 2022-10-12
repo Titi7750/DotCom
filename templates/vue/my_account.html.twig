@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte
+{% endblock %}
+
+{% block body %}
+	<header>
+		<div class="background_school">
+			<div class="backAll">
+				<i class="fas fa-arrow-left back"></i>
+				<a class="back" href="{{ path('app_home') }}">Accueil</a>
+			</div>
+			<h2 class="description">Mon profil</h2>
+		</div>
+	</header>
+	<main>
+		<div class="information_global">
+			<h5>Nom :
+				{{ app.user.lastName }}</h5>
+			<h5>Prénom :
+				{{ app.user.firstName }}</h5>
+			<h5>Email :
+				{{ app.user.email }}</h5>
+			<h5>Mon solde : 15 €</h5>
+			<a class="button" href="{{ path('app_logout') }}" class="btn btn-primary">Se déconnecter</a>
+		</div>
+	</main>
+
+	<link rel="stylesheet" href="{{ asset('css/my_account.css') }}">
+	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+{% endblock %}

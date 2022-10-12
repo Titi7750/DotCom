@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil
+{% endblock %}
+
+{% block body %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<header>
+		{% include 'menu/_menu.html.twig' %}
+		<div>
+			<a href="/accueil"><img class="logo_takeBreak" src="img/take_a_break.png" alt="Logo Take a Break"></a>
+		</div>
+		<a class="linkAll_restaurant" href="/restaurant">Voir tous les restaurants</a>
+	</header>
+	<main>
+		<div class="background_school">
+			<h2 class="description">Nous vous aidons à trouver un restaurant<br>
+				proche de l'école !
+			</h2>
+		</div>
+		<div class="subtitle">
+			<h3>Notre sélection</h3>
+			<h5>Les valeurs sûres</h5>
+		</div>
+		<div class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="/page_restaurant">Macdonald<br>Part-Dieu</a>
+			</div>
+			<div class="background_bk">
+				<a class="linkForm_restaurant" href="#">Burger King<br>Part-Dieu</a>
+			</div>
+			<div class="background_car">
+				<a class="linkForm_restaurant" href="#">Carrefour<br>Part-Dieu</a>
+			</div>
+			<div class="background_bd">
+				<a class="linkForm_restaurant" href="#">Brioche dorée</a>
+			</div>
+		</div>
+		<div class="subtitle">
+			<h3>Recommandations des étudiants</h3>
+		</div>
+		<div class="selection_student">
+			<div class="background_chi">
+				<a class="linkForm_restaurant" href="#">Chipotle</a>
+			</div>
+			<div class="background_sushi">
+				<a class="linkForm_restaurant" href="#">Sushi Shop</a>
+			</div>
+			<div class="background_otacos">
+				<a class="linkForm_restaurant" href="#">O'Tacos</a>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<h3>Propulsé par DotCom</h3>
+	</footer>
+
+	<link rel="stylesheet" href="{{ asset('css/accueil.css') }}">
+{% endblock %}

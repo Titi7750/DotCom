@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Page restaurant
+{% endblock %}
+
+{% block body %}
+	<header>
+		<div>
+			<div class="backAll">
+				<i class="fas fa-arrow-left back"></i>
+				<a class="back" href="{{ path('app_home') }}">Accueil</a>
+			</div>
+			<a href="/accueil"><img class="logo_takeBreak" src="img/take_a_break.png" alt="Logo Take a Break"></a>
+		</div>
+		<div class="your_restaurant">
+			<h3>Votre restaurant</h3>
+		</div>
+	</header>
+	<main>
+		<div class="selection">
+			<div class="background_mc">
+				<a class="linkForm_restaurant" href="#">Macdonald<br>Part-Dieu</a>
+			</div>
+		</div>
+		<div class="informations_restaurant">
+			<div class="background_price">
+				<i class="fas fa-solid fa-euro-sign euro"></i>
+				<h4>Prix</h4>
+				<p>Menu à partir de 4,95€</p>
+			</div>
+			<div class="background_location">
+				<i class="fas fa-solid fa-map-marker-alt location"></i>
+				<a class="localisation" href="https://www.google.fr/maps/place/McDonald's/@45.7617377,4.8551299,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ebc4f4464247:0x7aaa6ecbe5071139!8m2!3d45.7617377!4d4.8573186" target="_blank"><h4>Localisation</h4></a>
+				<p>350 m de l'école MDS</p>
+			</div>
+			<div class="background_clock">
+				<i class="fas fa-clock clock"></i>
+				<h4>Horaires</h4>
+				<p>Ouvert toute le semaine</p>
+			</div>
+		</div>
+		<div class="avis">
+			<h5>Notes</h5>
+			<div class="etoile">
+				<div class="etoile1">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="etoile2">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="etoile3">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="etoile4">
+					<i class="fas fa-star"></i>
+				</div>
+				<div class="etoile5">
+					<i class="fas fa-star"></i>
+				</div>
+			</div>
+		</div>
+		<a class="linkAll_restaurant" href="/restaurant">Voir tous les restaurants</a>
+	</main>
+	<footer>
+		<h3>Propulsé par DotCom</h3>
+	</footer>
+
+	<link rel="stylesheet" href="{{ asset('css/page_restaurant.css') }}">
+	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+{% endblock %}

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backAll {
+    padding: 12px;
+    color: #000;
+}
+
+.backAll:hover {
+    text-decoration: underline;
+}
+
+.back {
+    text-decoration: none;
+    color: #707070;
+}
+
+.logo_takeBreak {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #26B7C5;
+    color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 67px;
+}
+
+.background_school {
+    background-image: url("../img/background_school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #707070;
+    font-size: 20px;
+}
+
+.your_restaurant {
+    background-color: #707070;
+    color: #fff;
+    padding: 20px;
+    border-top-right-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 245px;
+    margin-bottom: 50px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.linkForm_restaurant {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.background_mc {
+    background-image: url("../img/macdonald_page.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.informations_restaurant {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+.euro {
+    font-size: 20px;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.clock {
+    font-size: 20px;
+}
+
+.background_price {
+    background-color: #707070;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background_price > i {
+    color: #fff;
+}
+
+.background_price > h4 {
+    color: #fff;
+}
+
+.background_location {
+    background-color: #707070;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.localisation {
+    text-decoration: none;
+    color: #fff;
+}
+
+.localisation:hover {
+    text-decoration: underline;
+}
+
+.background_location > i {
+    color: #fff;
+}
+
+.background_location > h4 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.background_clock {
+    background-color: #707070;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background_clock > i {
+    color: #fff;
+}
+
+.background_clock > h4 {
+    color: #fff;
+}
+
+.avis > h5 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.etoile {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+.etoile1, .etoile2, .etoile3 {
+    color: yellow;
+    font-size: 40px;
+}
+
+.etoile4, .etoile5 {
+    color: #707070;
+    font-size: 40px;
+}
+
+.linkAll_restaurant {
+    text-decoration: none;
+    background-color: #26B7C5;
+    color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.linkAll_restaurant:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px solid #707070;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #3C3C3B;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .logo_takeBreak {
+        width: 76%;
+        height: 76%;
+    }
+}
